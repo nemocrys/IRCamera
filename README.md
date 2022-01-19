@@ -8,11 +8,11 @@ To record images use the script *run_ircamera.py*.
 
 There is an issue with the configuration of emissivities, currently only a value of 1 can be set.
 
-The IR Camera is configured in *20112117.xml* and accessed using the Camera class defined in *ircamera.py*. FiloCara's interface [pyoptris](https://github.com/FiloCara/pyOptris/blob/dev/setup.py) is used for accessing the camera, it's located in the *source* direcotry.
+The IR Camera is configured in *20112117.xml* (only valid for the specific device used in the NEMOCRYS project, [adjustment required for other cameras](http://documentation.evocortex.com/libirimager2/html/Installation.html)) and accessed using the Camera class defined in *ircamera.py*. FiloCara's interface [pyoptris](https://github.com/FiloCara/pyOptris/blob/dev/setup.py) is used for accessing the camera, it's located in the *source* direcotry.
 
 ## License
 
-This code is available under a GPL v3 License. Parts are copied from https://github.com/FiloCara/pyOptris/blob/dev/setup.py and under MIT License.
+This code is available under a GPL v3 License. Parts are copied from [FiloCara/pyOptris](https://github.com/FiloCara/pyOptris/blob/dev/setup.py) and available under MIT License.
 
 ## Referencing
 
