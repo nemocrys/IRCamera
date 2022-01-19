@@ -1,0 +1,33 @@
+# IRCamera
+
+This code is used to record infrared images with an Optris PI640 Camera on Linux.
+
+## Usage
+
+To record images use the script *run_ircamera.py*.
+
+There is an issue with the configuration of emissivities, currently only a value of 1 can be set.
+
+The IR Camera is configured in *20112117.xml* and accessed using the Camera class defined in *ircamera.py*. FiloCara's interface [pyoptris](https://github.com/FiloCara/pyOptris/blob/dev/setup.py) is used for accessing the camera, it's located in the *source* direcotry.
+
+## License
+
+This code is available under a GPL v3 License. Parts are copied from https://github.com/FiloCara/pyOptris/blob/dev/setup.py and under MIT License.
+
+## Referencing
+
+If you use this code in your research please cite:
+
+A. Enders-Seidlitz, J. Pal, and K. Dadzis 2022 Model experiments for Czochralski crystal growth processes using inductive and resistive heating. *IOP Conf. Ser.* **EPM 2021** (in press)
+
+## Acknowledgements
+
+Main parts of this code have been written by [Max Schröder](https://github.com/mfschroeder).
+
+[This project](https://www.researchgate.net/project/NEMOCRYS-Next-Generation-Multiphysical-Models-for-Crystal-Growth-Processes) has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 851768).
+
+<img src="https://raw.githubusercontent.com/nemocrys/pyelmer/master/EU-ERC.png">
+
+## Contribution
+
+Any help to improve this code is very welcome!
