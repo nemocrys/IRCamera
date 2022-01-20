@@ -1,15 +1,13 @@
 # IRCamera
 
-This code is used to record infrared images with an Optris PI640 Camera on Linux.
+Record infrared images with an Optris PI640 Camera on Linux.
 
-## About Us
-The project is being processed by the **Model experiments** group at the Leibniz Institute for Crystal Growth (IKZ):
+The project is developed and maintained by the [**Model experiments group**](https://www.ikz-berlin.de/en/research/materials-science/section-fundamental-description#c486) at the Leibniz Institute for Crystal Growth (IKZ).
 
-[Group on IKZ homepage](https://www.ikz-berlin.de/en/research/materials-science/section-fundamental-description)
-
+### Referencing
 If you use this code in your research, please cite our article:
 
-A. Enders-Seidlitz, J. Pal, and K. Dadzis, Model experiments for Czochralski crystal growth processes using inductive and resistive heating. *IOP Conference Series: Materials Science and Engineering, Electromagnetic Processing of Materials (EPM 2021)*, 2022, In press.
+> A. Enders-Seidlitz, J. Pal, and K. Dadzis, Model experiments for Czochralski crystal growth processes using inductive and resistive heating *IOP Conference Series: Materials Science and Engineering, Electromagnetic Processing of Materials (EPM 2021)*, 2022, In press.
 
 ## Usage
 
