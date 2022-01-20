@@ -3,8 +3,13 @@
 This code is used to record infrared images with an Optris PI640 Camera on Linux.
 
 ## About Us
-The project is being processed by the **Model experiments** group at the Leibniz Institute for Crystal Growth (IKZ).
+The project is being processed by the **Model experiments** group at the Leibniz Institute for Crystal Growth (IKZ):
+
 [Group on IKZ homepage](https://www.ikz-berlin.de/en/research/materials-science/section-fundamental-description)
+
+If you use this code in your research, please cite our article:
+
+A. Enders-Seidlitz, J. Pal, and K. Dadzis, Model experiments for Czochralski crystal growth processes using inductive and resistive heating. *IOP Conference Series: Materials Science and Engineering, Electromagnetic Processing of Materials (EPM 2021)*, 2022, In press.
 
 ## Usage
 
@@ -17,12 +22,6 @@ The IR Camera is configured in *20112117.xml* (only valid for the specific devic
 ## License
 
 This code is available under a GPL v3 License. Parts are copied from [FiloCara/pyOptris](https://github.com/FiloCara/pyOptris/blob/dev/setup.py) and available under MIT License.
-
-## Referencing
-
-If you use this code in your research, please cite our article:
-
-A. Enders-Seidlitz, J. Pal, and K. Dadzis, Model experiments for Czochralski crystal growth processes using inductive and resistive heating. *IOP Conference Series: Materials Science and Engineering, Electromagnetic Processing of Materials (EPM 2021)*, 2022, In press.
 
 ## Acknowledgements
 
