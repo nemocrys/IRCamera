@@ -4,7 +4,7 @@ This code is used to record infrared images with an Optris PI640 Camera on Linux
 
 ## Usage
 
-To record images use the script *run_ircamera.py*.
+To record images use the script *run_ircamera.py* and the parameter file *settings.yml*.
 
 There is an issue with the configuration of emissivities, currently only a value of 1 can be set.
 
@@ -16,9 +16,9 @@ This code is available under a GPL v3 License. Parts are copied from [FiloCara/p
 
 ## Referencing
 
-If you use this code in your research please cite:
+If you use this code in your research, please cite our article:
 
-A. Enders-Seidlitz, J. Pal, and K. Dadzis 2022 Model experiments for Czochralski crystal growth processes using inductive and resistive heating. *IOP Conf. Ser.* **EPM 2021** (in press)
+A. Enders-Seidlitz, J. Pal, and K. Dadzis, Model experiments for Czochralski crystal growth processes using inductive and resistive heating. *IOP Conference Series: Materials Science and Engineering, Electromagnetic Processing of Materials (EPM 2021)*, 2022, In press.
 
 ## Acknowledgements
 
