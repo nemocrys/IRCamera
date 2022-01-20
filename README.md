@@ -2,6 +2,10 @@
 
 This code is used to record infrared images with an Optris PI640 Camera on Linux.
 
+## About Us
+The project is being processed by the **Model experiments** group at the Leibniz Institute for Crystal Growth (IKZ).
+[Group on IKZ homepage](https://www.ikz-berlin.de/en/research/materials-science/section-fundamental-description)
+
 ## Usage
 
 To record images use the script *run_ircamera.py* and the parameter file *settings.yml*.
