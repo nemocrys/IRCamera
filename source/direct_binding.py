@@ -242,7 +242,7 @@ def set_temperature_range(min: int, max: int) -> int:
 # __IRDIRECTSDK_API__ int evo_irimager_set_radiation_parameters(float emissivity, float transmissivity, float tAmbient);
 #
 def set_radiation_parameters(emissivity: float, transmissivity: float, ambientTemperature: float) -> int:
-    return lib.evo_irimager_set_radiation_parameters(ctypes.c_double(emissivity), ctypes.c_double(transmissivity), ctypes.c_double(ambientTemperature))
+    return lib.evo_irimager_set_radiation_parameters(ctypes.c_float(emissivity), ctypes.c_float(transmissivity), ctypes.c_float(ambientTemperature))
 
 #
 # @brief 

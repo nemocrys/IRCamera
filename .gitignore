@@ -130,3 +130,5 @@ dmypy.json
 
 *.log
 .vscode/
+/images/
+/log.txt
